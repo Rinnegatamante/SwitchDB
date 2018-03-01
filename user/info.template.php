@@ -40,11 +40,11 @@
 							</thead>
 							<tbody>
 								<tr ng-repeat="brew in conf.hbs">
-									<th><a href="#/info/{{brew.id}}"><img class="icon" src="https://rinnegatamante.it/vitadb/icons/{{brew.icon}}" style="max-width: 64px;" /></a></th>
+									<th><a href="#/info/{{brew.id}}"><img class="icon" src="https://rinnegatamante.it/switchdb/icons/{{brew.icon}}" style="max-width: 64px;" /></a></th>
 									<th><a href="#/info/{{brew.id}}">{{brew.name}} {{brew.version}}</a></th>
 									<th>{{brew.date}}</th>
 									<th>
-										<a href="{{brew.url}}"><input type="submit" value="Download VPK" class="btn btn-primary" /></a>
+										<a href="{{brew.url}}"><input type="submit" value="Download NRO" class="btn btn-primary" /></a>
 										<a href="{{brew.data}}" ng-if="brew.data.length > 0"><br><input type="submit" value="Download Data Files" class="btn btn-primary" /></a>
 									</th>
 								</tr>
